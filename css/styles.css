@@ -746,3 +746,41 @@ outline: var(--outline);
     background-color: transparent;
 
 }
+.modal-form {
+    display: block;
+    padding: 40px;
+}
+.modal-tittel {
+    max-width: 448px;
+    font-weight: 700;
+font-size: 20px;
+line-height: calc(23/20);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-txt-cl);
+}
+.modal-form-label {
+    display: block;
+}
+.modal-form-btn {
+ 
+    font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+color: var(--hero-txt-cl);
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 10px 52px;
+
+    border-radius: 4px;
+    background: var(--accent-txt-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
