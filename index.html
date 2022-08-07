@@ -643,8 +643,24 @@
           <h2 class="modal-tittel">Залиште свої дані, ми вам передзвонимо</h2>
           <label class="modal-form-group">
             <span class="modal-form-label">Ім'я</span>
-          <input type="text" >
+          <input class="modal-form-input" type="text" name="user-name" placeholder=""/>
         </label>
+        <label class="modal-form-group">
+          <span class="modal-form-label">Телефон</span>
+        <input class="modal-form-input" type="tel" name="user-phone" placeholder=""/>
+      </label>
+      <label class="modal-form-group">
+        <span class="modal-form-label">Пошта</span>
+      <input class="modal-form-input" type="email" name="user-mail" placeholder="" />
+    </label>
+    <label class="modal-form-group">
+      <span class="modal-form-label">Коментар</span>
+    <input class="modal-form-input coment" type="text" name="user-coment" placeholder="Введіть текст" />
+  </label>
+  <label class="modal-form-group">
+  <input class="modal-form-input coment" type="checkbox" name="user-agree" value="pravacy-policy"/>
+  <span class="modal-form-label">Погоджуюся з розсилкою та приймаю <a class="user-agree" href="">Умови договору</a></span>
+</label>
           <button class="modal-form-btn" type="submit">Відправити</button>
         </form>
       </div>
