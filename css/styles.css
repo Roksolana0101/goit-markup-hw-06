@@ -719,6 +719,7 @@ outline: var(--outline);
         border-radius: 4px;
         opacity: 1;
     transition: transform var(--anim-fast), opacity var(--anim-fast); 
+    padding: 40px;
         
 }
 .backdrop.is-hidden .modal {
@@ -748,7 +749,8 @@ outline: var(--outline);
 }
 .form {
     display: block;
-    padding: 40px;
+    text-align: center;
+   
 }
 .form-titel {
     max-width: 448px;
@@ -760,8 +762,43 @@ letter-spacing: 0.03em;
 
 color: var(--main-txt-cl);
 }
+.register-form-gtoup {
+    margin-top: 12px;
+}
+.modal-form-group {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.modal-form-group:last-child {
+    margin-bottom: 0;
+}
+.modal-form-input {
+    width: 100%;
+    
+    
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 11px;
+    padding-left: 30px;
+    outline: transparent;
+
+}
+.modal-form-input:last-child {
+    padding-left: 16px;
+
+}
+.form-icon {
+    position: absolute;
+    top: 35px;
+    left: -130px;
+
+}
+
 .modal-form-label {
     display: block;
+    text-align: left;
+    margin-bottom: 4px;
 }
 .modal-form-btn {
  
@@ -772,7 +809,7 @@ color: var(--hero-txt-cl);
 
     cursor: pointer;
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
@@ -783,4 +820,5 @@ color: var(--hero-txt-cl);
     border-radius: 4px;
     background: var(--accent-txt-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
