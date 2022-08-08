@@ -891,3 +891,10 @@ color: var(--hero-txt-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
+.button-foter-sign {
+    position: relative;
+}
+.form-icon-foter {
+    position: absolute;
+    right: 0;
+}
