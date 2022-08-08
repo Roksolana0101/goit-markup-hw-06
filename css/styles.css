@@ -746,11 +746,11 @@ outline: var(--outline);
     background-color: transparent;
 
 }
-.modal-form {
+.form {
     display: block;
     padding: 40px;
 }
-.modal-tittel {
+.form-titel {
     max-width: 448px;
     font-weight: 700;
 font-size: 20px;
