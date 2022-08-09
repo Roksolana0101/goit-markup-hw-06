@@ -694,6 +694,9 @@ outline: var(--outline);
 .footer-conteiner1 {
       margin-right: 70px;
 }
+.footer-conteiner2 {
+    margin-left: auto;
+}
 .footer-contact-list:not(last-child) {margin-bottom: 9px;}
 .backdrop {
     position: fixed;
@@ -764,6 +767,13 @@ outline: var(--outline);
     display: block;
     text-align: center;
    
+}
+.footer-form{
+    display: flex;
+    gap: 12px;
+   
+
+
 }
 .form-titel {
     max-width: 448px;
@@ -884,17 +894,26 @@ color: var(--hero-txt-cl);
 
     width: 200px;
     height: 50px;
-    padding: 10px 52px;
+    padding: 10px 0px;
+    gap: 10px;
+    border: none;
 
     border-radius: 4px;
     background: var(--accent-txt-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
-.button-foter-sign {
-    position: relative;
+.footer-form-input {
+    width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding: 15px 16px;
+background-color: transparent;
+color: var(--hero-txt-cl);
 }
 .form-icon-foter {
-    position: absolute;
-    right: 0;
+ width: 24px;
+ height: 24px;
 }
