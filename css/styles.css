@@ -730,8 +730,8 @@ outline: var(--outline);
 
         transform: translate(-50%, -50%) scale(1) rotate(0);
         width: 528px;
-        height: 581px;
-        background-color: var(--other-bg-cl);
+       
+        background-color: var(--hero-txt-cl);
         border-radius: 4px;
         opacity: 1;
     transition: transform var(--anim-fast), opacity var(--anim-fast); 
@@ -787,6 +787,7 @@ color: var(--main-txt-cl);
 }
 .register-form-gtoup {
     margin-top: 12px;
+    margin-bottom: 20px;
 }
 .modal-form-group {
     display: block;
@@ -803,8 +804,7 @@ color: var(--main-txt-cl);
     
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding: 11px;
-    padding-left: 30px;
+    padding: 11px 42px;
     outline: transparent;
 
 }
@@ -813,12 +813,20 @@ color: var(--main-txt-cl);
 {
     resize: none;
     height: 120px;
-    padding: 16px 12px;
+    padding: 16px 12px;}
+.modal-form-input.coment::placeholder {
+    font-weight: 400;
+font-size: 12px;
+line-height: calc(14/12);
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
+
 }
 .form-icon {
     position: absolute;
-    top: 35px;
-    left: -130px;
+    bottom:  11px;
+    left: 12px;
 
 }
 
@@ -860,10 +868,10 @@ color: var(--accent-txt-cl);}
     justify-content: center;
     
 }
-.register-checkbox:checked + .register-icon.register-icon-uncheck{
+.register-checkbox:checked + .register-icon .register-icon-uncheck{
     opacity: 0;
 }
-.register-checkbox:checked + .register-icon.register-icon-check{
+.register-checkbox:checked + .register-icon .register-icon-check{
     opacity: 1;
 }
 .register-icon-uncheck {
@@ -875,9 +883,7 @@ color: var(--accent-txt-cl);}
    
 }
 .register-icon{
-    position: absolute;
-    top: 4px;
-    left: -135px;
+
 }
 .modal-form-btn {
  
@@ -912,6 +918,7 @@ border-radius: 4px;
 padding: 15px 16px;
 background-color: transparent;
 color: var(--hero-txt-cl);
+outline: transparent;
 }
 .form-icon-foter {
  width: 24px;
